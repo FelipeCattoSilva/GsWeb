@@ -202,3 +202,46 @@ body.theme-green {
     background: #eafaf1;
     color: #145a32;
 }
+
+#footer {
+    background: #222;
+    color: #fff;
+    padding: 30px 0 15px 0;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+#footer .footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#footer a {
+    color: #4caf50;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.2s;
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+#footer .fab {
+    font-size: 1.3em;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+
+/* Responsivo para telas pequenas */
+@media (max-width: 600px) {
+    #footer {
+        font-size: 0.95rem;
+        padding: 20px 0 10px 0;
+    }
+    #footer .footer-content {
+        padding: 0 10px;
+    }
+}
