@@ -8,6 +8,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const answers = {
                 q1: "b",
+                q2: "a",
+                q3: "a",
+                q4: "b",
+                q5: "b",
+                q6: "a",
+                q7: "c",
+                q8: "c",
+                q9: "b",
+                q10: "a"
             };
 
             let score = 0;
